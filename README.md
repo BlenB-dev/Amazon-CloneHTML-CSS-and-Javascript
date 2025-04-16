@@ -1,0 +1,6 @@
+![img_url](https://github.com/BlenB-dev/Amazon-CloneHTML-CSS-and-Javascript/blob/main/Screenshot_16-4-2025_15410_127.0.0.1.jpeg?raw=true)
+![img_url](https://github.com/BlenB-dev/Amazon-CloneHTML-CSS-and-Javascript/blob/main/Screenshot_16-4-2025_154122_127.0.0.1.jpeg?raw=true)
+![img_url](https://github.com/BlenB-dev/Amazon-CloneHTML-CSS-and-Javascript/blob/main/Screenshot_16-4-2025_154137_127.0.0.1.jpeg?raw=true)
+![img_url](https://github.com/BlenB-dev/Amazon-CloneHTML-CSS-and-Javascript/blob/main/Screenshot_16-4-2025_154149_127.0.0.1.jpeg?raw=true)
+![img_url](https://github.com/BlenB-dev/Amazon-CloneHTML-CSS-and-Javascript/blob/main/Screenshot_16-4-2025_154149_127.0.0.1.jpeg?raw=true)
+![img_url](https://github.com/BlenB-dev/Amazon-CloneHTML-CSS-and-Javascript/blob/main/Screenshot_16-4-2025_15422_127.0.0.1.jpeg?raw=true)
