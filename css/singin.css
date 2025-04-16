@@ -1,0 +1,249 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap");
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  font-family: Outfit;
+}
+body {
+  background: #fff;
+  text-align: center;
+  font-family: Outfit;
+  min-height: 100vh;
+}
+.logo {
+  margin-top: 20px;
+}
+.singin_container {
+  max-width: 350px;
+  border: 1px solid #d2d2d2;
+  margin: auto;
+  margin-top: 10px;
+  padding: 20px 26px;
+  text-align: left;
+  border-radius: 8px;
+}
+.singin_container .singin_form {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1px;
+}
+.singin_container .singin-header {
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+.singin_form .inputs {
+  margin-bottom: 10px;
+  height: 32px;
+  border-radius: 6px;
+  width: 100%;
+  border: 1px solid #a0a0a0;
+  font-size: 12px;
+}
+.singin_form .inputs:focus {
+  outline: 3px solid #c2f2ff;
+}
+
+.singin_form .continue-btn {
+  background-color: #ffd814;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 330px;
+  padding: 8px 0px;
+  border: none;
+  border-radius: 15px;
+  color: black;
+  font-weight: 500;
+  margin-bottom: 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.singin_form .continue-btn:hover {
+  background: #ebc712;
+}
+.singin_form .agree-terms {
+  font-size: 13px;
+}
+.singin_form .agree-terms a {
+  color: #007185;
+}
+.singin_form .email-phonenumber {
+  margin-bottom: 3px;
+  font-weight: 600;
+  font-size: 15px;
+}
+.singin_form .need-help {
+  margin: 20px 0px;
+  color: #007185;
+}
+
+.singin_container .buying-for-work {
+  margin-right: 110px;
+  margin-top: 15px;
+}
+.singin_container .buying-for-work p {
+  font-weight: 700;
+  margin-bottom: 3px;
+}
+.singin_container .buying-for-work a {
+  color: #007185;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.singin_below p {
+  margin: 10px 0px;
+  color: #737373;
+}
+
+.singin_below .createAccount {
+  padding: 6px 90px;
+  border-radius: 20px;
+  border: 1px solid #c3c3c3;
+  font-size: 13px;
+  font-weight: 400;
+  background-color: white;
+  margin-bottom: 50px;
+}
+.singin_below .createAccount:hover {
+  background: #f1f1f1;
+}
+/* footer */
+.footer_container {
+  width: 100%;
+  height: auto;
+  padding: 40px 0px;
+  position: fixed;
+  bottom: 0;
+  font-size: 12px;
+}
+.links_ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  list-style: none;
+  text-decoration: none;
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+.links_ul a {
+  text-decoration: none;
+  color: #007185;
+}
+.links p {
+  color: #c3c3c3;
+  font-weight: 400;
+}
+@media screen and (min-width: 1000px) {
+  .footer_container {
+    margin-top: 350px;
+    top: 160px;
+  }
+}
+@media screen and (max-width: 999px) {
+  .footer_container {
+    margin-top: 350px;
+    top: 160px;
+    flex-wrap: wrap;
+  }
+
+  .footer_container .links {
+    padding: 0;
+  }
+  .links .links_ul {
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .singin_container {
+    min-width: 300px;
+
+    flex-wrap: wrap;
+  }
+  .buying-for-work p {
+    white-space: nowrap;
+  }
+  .singin_below .createAccount {
+    white-space: nowrap;
+    max-width: 250px;
+    margin-left: 12%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .singin_container {
+    margin-top: -1px;
+  }
+  .inner-container {
+    margin-top: -5px;
+  }
+
+  .singin_below a {
+    text-decoration: none;
+  }
+}
+@media screen and (max-width: 290px) {
+  .singin_container {
+    min-width: 240px;
+    flex-wrap: wrap;
+  }
+  .singin_below .createAccount {
+    max-width: 100px;
+    margin-right: 40px;
+  }
+
+  .links .links_ul {
+    gap: 9px;
+    margin-top: 10px;
+    bottom: 0;
+  }
+  .buying-for-work a {
+    font-size: 13px;
+  }
+  .links p {
+    margin-top: 10px;
+  }
+  .singin_below {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer_container {
+    font-size: 10px;
+    max-width: 205px;
+    margin-top: 500px;
+    top: 160px;
+    margin-bottom: 0px;
+  }
+}
+@media screen and (max-width: 199px) {
+  .footer_container {
+    font-size: 10px;
+    max-width: 220px;
+    margin-top: 450px;
+    top: 160px;
+    margin-bottom: 0px;
+  }
+  .links .links_ul {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+  }
+  .links p {
+    width: 90px;
+
+    margin-left: 50px;
+  }
+}

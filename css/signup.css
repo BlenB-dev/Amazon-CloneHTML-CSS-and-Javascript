@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap");
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  font-family: Outfit;
+}
+body {
+  background: #fff;
+  text-align: center;
+  font-family: Outfit;
+  min-height: 100vh;
+}
+header {
+  margin-top: 16px;
+}
+.singup_container {
+  max-width: 380px;
+
+  border: 1px solid #d2d2d2;
+  margin: auto;
+  margin-top: 20px;
+  padding: 20px 26px;
+  text-align: left;
+  border-radius: 8px;
+
+  margin-bottom: 40px;
+}
+
+.singup_container .input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.input-container input {
+  width: 100%;
+  margin-bottom: 10px;
+  height: 32px;
+  border-radius: 6px;
+  font-weight: 400;
+  width: 100%;
+  border: 1px solid #a0a0a0;
+  font-size: 10px;
+}
+.input-container h2 {
+  font-weight: 500;
+  padding: 10px 0px;
+}
+
+.continue-btn {
+  background-color: #ffd814;
+
+  padding: 8px 0px;
+  border: none;
+  border-radius: 15px;
+  color: black;
+  font-weight: 400;
+  font-size: 14px;
+  cursor: pointer;
+}
+.singup_container .agree-terms-singup {
+  margin-top: 10px;
+  font-size: 13px;
+  font-weight: 400;
+}
+.singup_container .conditions a {
+  font-size: 13px;
+  font-weight: 400;
+  color: #007185;
+}
+.terms-and-conditions {
+  padding: 30px 0px;
+}
+.singup_container .buying-for-work-signup {
+  padding: 20px 0;
+}
+.buying-for-work-signup a {
+  color: #007185;
+  font-size: 14px;
+}
+.input-container .email-phonenumber {
+  margin-bottom: 3px;
+  font-weight: 600;
+  font-size: 15px;
+}
+.Already-have-an-account {
+  font-weight: 400;
+  font-size: 15px;
+
+  margin-top: 20px;
+}
+.Already-have-an-account a {
+  color: #007185;
+  text-decoration: none;
+  font-weight: 300;
+}
+.Singup_links {
+  padding: 30px 0;
+}
+.links_ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 10px;
+}
+.links_ul li,
+a {
+  list-style: none;
+  text-decoration: none;
+  color: #007185;
+  font-size: 13px;
+}
+@media screen and (max-width: 300px) {
+  .Singup_links .links_ul {
+    white-space: nowrap;
+    gap: 7px;
+  }
+}
